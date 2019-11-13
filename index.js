@@ -20,8 +20,8 @@ function nowServing(katzDeliLine){
 
   }
 
-function currentLine(Line){
-  var outputString;
+function currentLine(katzDeliLine){
+  var output;
 if (katzDeliLine.length > 0) {
       for(var i = 0; i < katzDeliLine.length; i++) {
         output += (i + 1) + ". " + katzDeliLine[i] + ", ";
